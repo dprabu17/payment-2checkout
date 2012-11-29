@@ -1,0 +1,28 @@
+---
+sdkversion: 3.4.2
+name: checkout
+version: '1.0'
+vendor: rhomobile
+build: debug
+bbver: '4.6'
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: ''
+  codesignidentity: ''
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.checkout
+  BundleURLScheme: checkout
+wp:
+  productid: 7a747370-ffd3-012f-d4d6-70f1a1bddd12
+symbian:
+  uid: '0xe7fdfb2d'
+android:
+  version: '2.3.3'
+extensions:
+- json
+- another-extension
+app_type: rhoelements
+capabilities:
+- non_motorola_device
